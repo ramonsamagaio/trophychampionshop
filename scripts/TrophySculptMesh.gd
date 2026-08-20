@@ -1,11 +1,10 @@
 class_name TrophySculptMesh
 extends MeshInstance3D
 
-# High-resolution sculpt blank: 24,386 vertices / 48,768 triangles.
-# Dense enough for hand-made forms and pen strokes while still being practical
-# for a small single-object sculpting game.
-const LAT_SEGMENTS: int = 128
-const LON_SEGMENTS: int = 192
+# Extra-high-resolution sculpt blank: 61,122 vertices / 122,240 triangles.
+# The higher density is aimed at cleaner small details, creases and lettering.
+const LAT_SEGMENTS: int = 192
+const LON_SEGMENTS: int = 320
 const CENTER_Y: float = 1.52
 const HALF_HEIGHT: float = 1.36
 const BASE_RADIUS: float = 0.76
